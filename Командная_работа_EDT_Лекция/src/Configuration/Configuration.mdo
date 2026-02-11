@@ -39,4 +39,7 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Производители</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.ЕщеОдинСправочник</catalogs>
+  <documents>Document.ПриемНаРаботу</documents>
 </mdclass:Configuration>
