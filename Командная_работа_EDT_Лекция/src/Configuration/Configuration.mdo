@@ -42,4 +42,5 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ЕщеОдинСправочник</catalogs>
   <documents>Document.ПриемНаРаботу</documents>
+  <documents>Document.КадровыйПеревод</documents>
 </mdclass:Configuration>
