@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6d28e48-fb13-469c-a4dc-446dee21cb04">
+  <producedTypes>
+    <objectType typeId="05b17cba-82b9-4a7b-b78f-82267f8878fa" valueTypeId="a0ae3a12-e5df-4cc9-badd-571d546c74b9"/>
+    <refType typeId="574323a2-368a-4fc9-a120-5295f35afa40" valueTypeId="1893b3e4-d93e-45c1-8928-27539a12043a"/>
+    <selectionType typeId="104fc871-8134-440c-81f1-8c96b16c3dfb" valueTypeId="1de7d0be-cbae-4345-aa19-267ea06d4bbf"/>
+    <listType typeId="e22e60ef-ceec-4029-91a9-c5f5432d689f" valueTypeId="ec9feba5-4f69-4878-ab25-1f76f0ca5fb6"/>
+    <managerType typeId="45e52177-8eff-4eb7-aa72-758cdbceddc0" valueTypeId="e6d3845c-8e21-41f6-8e0c-85afa7e8d1df"/>
+  </producedTypes>
+  <name>КадровыйПеревод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый перевод</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КадровыйПеревод.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Кадровый перевод</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Кадровые переводы</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e833d562-1d7d-4c2a-93f1-755c91ae3194">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
